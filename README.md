@@ -24,7 +24,7 @@ At this stage, the focus is on building a correct, functional pipeline from data
 * **Split:** 80% Training / 20% Validation.
 
 ## 🧠 Baseline Model (Implementation 1)
-* [cite_start]**Architecture:** Custom Convolutional Neural Network (CNN) 
+* **Architecture:** Custom Convolutional Neural Network (CNN) 
 * **Layers:** 3x (Conv2D + MaxPooling2D) -> Flatten -> Dense (128) -> Output Dense (4 classes with Softmax).
 * **Optimizer:** Adam
 * **Loss Function:** Sparse Categorical Crossentropy
