@@ -30,8 +30,8 @@ At this stage, the focus is on building a correct, functional pipeline from data
 * **Loss Function:** Sparse Categorical Crossentropy
 
 ## 📂 Repository Contents
-* [cite_start]`TeaLeaftNet_Implementation1.ipynb`: The Google Colab source code containing dataset preparation, model building, training, and evaluation.
-* [cite_start]`tealeaftnet_baseline.h5`: The saved baseline model file.
+* `TeaLeaftNet_Implementation1.ipynb`: The Google Colab source code containing dataset preparation, model building, training, and evaluation.
+* `tealeaftnet_baseline.h5`: The saved baseline model file.
 * *(Optional: Add your PDF report here if you uploaded it to GitHub).*
 
 ## 🚀 How to Run
