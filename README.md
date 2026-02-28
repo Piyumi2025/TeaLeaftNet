@@ -1,4 +1,4 @@
-# TeaLeaftNet: Tea Leaf Disease Detection System 🍃
+# TeaLeafNet: Tea Leaf Disease Detection System 🍃
 
 **Course:** ICT 3212 - Introduction to Intelligent Systems  
 **Phase:** 03 - Image Classification Model Implementation (Implementation 1) 
