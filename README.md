@@ -12,7 +12,7 @@
 * **M.G.J. Sinty** - ICT/2022/043
 
 ## 📌 Project Overview
-TeaLeaftNet is an intelligent image classification system designed to automatically identify common diseases in tea leaves. 
+TeaLeafNet is an intelligent image classification system designed to automatically identify common diseases in tea leaves. 
 This repository contains the code and models for **Implementation 1**, which focuses on designing a baseline Image Classification System using a Convolutional Neural Network (CNN). 
 
 At this stage, the focus is on building a correct, functional pipeline from data loading to evaluation, rather than hyper-optimized performance.
