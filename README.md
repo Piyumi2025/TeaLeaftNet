@@ -32,7 +32,7 @@ At this stage, the focus is on building a correct, functional pipeline from data
 ## 📂 Repository Contents
 * `TeaLeaftNet_Implementation1.ipynb`: The Google Colab source code containing dataset preparation, model building, training, and evaluation.
 * `tealeaftnet_baseline.h5`: The saved baseline model file.
-* *(Optional: Add your PDF report here if you uploaded it to GitHub).*
+
 
 ## 🚀 How to Run
 1. Download the "Tea Sickness Dataset" from Kaggle and upload the 4 specific class folders to your Google Drive.
