@@ -42,3 +42,45 @@ At this stage, the focus is on building a correct, functional pipeline from data
 
 ---
 *Note: This model will be further optimized using data augmentation, regularization, and hyperparameter tuning in Implementation 2.*
+
+
+
+
+# TeaLeafNet: Tea Leaf Disease Detection System 🍃
+
+[cite_start]**Course:** ICT 3212 - Introduction to Intelligent Systems [cite: 6]  
+**Phase:** 04 - Model Optimization (Implementation 2)  
+[cite_start]**University:** Rajarata University of Sri Lanka [cite: 4]  
+
+## 👥 Team: Quantum Coders
+* **M.J.H.A.P. [cite_start]Madushani** (Leader) - ICT/2022/142 
+* **M.K.H.K. [cite_start]Madushani** - ICT/2022/107 
+* **W.K.D. [cite_start]Bhagya** - ICT/2022/110 
+* **M.T. [cite_start]Rathnayake** - ICT/2022/114 
+* **M.G.J. [cite_start]Sinty** - ICT/2022/043 
+
+## 📌 Project Overview
+[cite_start]TeaLeafNet is an intelligent image classification system designed to automatically identify common diseases in tea leaves (Healthy, Anthracnose, Algal Leaf, Bird Eye Spot)[cite: 14]. This repository contains the code and models for **Implementation 2**, which focuses on optimizing our baseline Convolutional Neural Network (CNN) to cure overfitting and improve generalization.
+
+## 🚀 What's New in Implementation 2 (V2 Lite)
+Based on our findings in Implementation 1, we upgraded the baseline model with the following optimizations:
+
+* **Data Augmentation:** Introduced a dynamic augmentation pipeline (Random Flip, 10% Random Rotation, 10% Random Zoom) to artificially expand the training dataset and prevent memorization.
+* **Regularization:** Added a 30% Dropout layer (`Dropout(0.3)`) before the final classification head to force the network to learn more robust disease features.
+* **Smart Training Callbacks:** * `EarlyStopping` (patience=5) to automatically halt training when validation loss stops improving.
+  * `ReduceLROnPlateau` (factor=0.2, patience=3) to dynamically lower the learning rate if the model reaches a plateau.
+* **Native Keras Format:** The upgraded model is now saved in the modern, native `.keras` format to ensure full compatibility.
+
+## 📊 Performance
+The "V2 Lite" architecture successfully cured the overfitting issues observed in the baseline model. The training and validation accuracy curves now track closely together, peaking near 90% accuracy on the test set, and significantly reducing the misclassification of the *Bird Eye Spot* disease.
+
+## 📂 Repository Contents
+* `TeaLeafNet_Implementation2.ipynb`: The Google Colab source code containing the upgraded architecture, callbacks, and visualization generation.
+* `tealeafnet_v2_lite.keras`: The optimized and saved V2 model file.
+* `TeaLeafNet_Implementation2_Summary_Report.pdf`: The official Phase 04 summary report detailing performance metrics, graphs, and the confusion matrix.
+
+## 🛠️ How to Run
+1. [cite_start]Download the "Tea Sickness Dataset" from Kaggle and upload the class folders to your Google Drive[cite: 24].
+2. [cite_start]Open the `.ipynb` notebook in Google Colab[cite: 21].
+3. Update the `DATA_DIR` path to match your Google Drive directory.
+4. Run all cells sequentially to apply augmentations, train the V2 model, and output the evaluation metrics.
